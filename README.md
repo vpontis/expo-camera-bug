@@ -9,3 +9,6 @@ To reproduce:
 3. Run the app on your iPhone from XCode
 4. Try to take a picture
 
+# Fixed!
+
+Fix committed from this comment: https://github.com/expo/expo/issues/3115#issuecomment-505931440

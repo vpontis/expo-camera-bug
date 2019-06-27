@@ -26,11 +26,8 @@ class TakePhoto extends Component {
 
   takePhotoAsync = async() => {
     console.log(this.cameraRef)
-    const {takePictureAsync} = this.cameraRef;
 
-    console.log('got take picture async', takePictureAsync)
-
-    const capturedPicture = await takePictureAsync({
+    const capturedPicture = await this.cameraRef.takePictureAsync({
       quality: 0.2,
       base64: true,
       // onPictureSaved: async () => {
